@@ -149,7 +149,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>&copy; 2024 Karanveer Singh. All rights reserved.</p>
+        <p>&copy; 2025 Karanveer Singh. All rights reserved.</p>
       </footer>
     </div>
   )
