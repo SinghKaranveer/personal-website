@@ -452,8 +452,20 @@
 
 @media (max-width: 768px) {
   .nav {
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 0 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav a {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+    letter-spacing: 0.2px;
+  }
+
+  .header {
+    padding: 1rem 0;
   }
 
   .hero {
@@ -461,7 +473,8 @@
   }
 
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
   }
 
   .hero p {
@@ -616,5 +629,40 @@ html {
 
   .timeline-content p {
     font-size: 0.9rem;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .nav {
+    gap: 0.25rem;
+    padding: 0 0.5rem;
+  }
+
+  .nav a {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    letter-spacing: 0.1px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 0 0.5rem;
+    margin: 3rem auto;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
   }
 }
