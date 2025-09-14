@@ -142,8 +142,7 @@ function App() {
           <p>Let's connect and discuss opportunities:</p>
           <div className="contact-links">
             <a href="mailto:karsingh306@gmail.com">Email</a>
-            <a href="tel:267-294-7525">Phone</a>
-            <a href="https://linkedin.com/in/karanveer-singh">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/karanveer-singh-377a9b69/">LinkedIn</a>
           </div>
         </section>
       </main>
