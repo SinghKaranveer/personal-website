@@ -196,7 +196,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background: linear-gradient(180deg, #007acc, #005999);
+  background: linear-gradient(180deg, #007acc, #007acc);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -225,7 +225,7 @@
   width: 16px;
   height: 16px;
   background-color: #007acc;
-  border: 3px solid #ffffff;
+  border: 3px solid #007acc;
   top: 1.5rem;
   border-radius: 50%;
   z-index: 10;
